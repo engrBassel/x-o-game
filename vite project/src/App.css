@@ -1,0 +1,77 @@
+header {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  color: var(--main-color);
+}
+#game,
+#game .game-play,
+#game .game-history {
+  display: grid;
+  justify-items: center;
+}
+#game {
+  gap: 2rem;
+}
+#game .game-play {
+  gap: 1rem;
+  min-width: 280px;
+}
+#game .game-play .game-play__message {
+  font-size: 2rem;
+}
+#game .game-play .game-play__message .player {
+  font-weight: bold;
+  color: var(--main-color);
+}
+#game .game-play .game-play__board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  font-size: 1.8rem;
+}
+#game .game-play .game-play__board .square {
+  min-height: 100px;
+}
+#game .game-play .game-play__board .square.win {
+  background-color: greenyellow;
+  color: #242424;
+}
+#game .game-history {
+  gap: 1rem;
+}
+#game .game-history__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+#game .game-history__header button {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+}
+#game .game-history ol {
+  padding-inline-start: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+#game .game-history ol.reversed {
+  flex-direction: column-reverse;
+}
+#game .game-history ol li span {
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: bold;
+}
+#game .game-history ol li button {
+  width: 100%;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+}
