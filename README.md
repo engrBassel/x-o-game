@@ -6,5 +6,5 @@
 - The current move is a text in the format "You are at game start" or "You are at move #number at (row, col)"
 - Other history moves are buttons in the format "Go to game start" or "Go to move #number at (row, col)".
 - Using Vite, React and TypeScript.
-![win](https://github.com/engrBassel/x-o-game/assets/142447184/b8b1f3ec-087f-4e0e-aa16-7dfd370a94f9)
-![draw](https://github.com/engrBassel/x-o-game/assets/142447184/5f47039f-a061-448b-8822-3b7c09eb1f15)
+![win (Custom)](https://github.com/engrBassel/x-o-game/assets/142447184/b32ed20d-48be-4373-8fd9-dde400f3cfbf)
+![draw (Custom)](https://github.com/engrBassel/x-o-game/assets/142447184/66808777-6029-4064-af52-007954219393)
